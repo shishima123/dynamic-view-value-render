@@ -1,0 +1,41 @@
+{
+    "name": "shishima/dynamic-export-config",
+    "description": "This package support handle rendering data in file excel",
+    "keywords": [
+        "Shishima",
+        "laravel",
+        "dynamic-export-config"
+    ],
+    "homepage": "https://github.com/shishima/dynamic-export-config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phuoc Nguyen",
+            "email": "shishima21@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Shishima\\ConvertExport\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "scripts": {},
+    "config": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shishima\\ConvertExport\\ConvertExportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
