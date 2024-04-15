@@ -1,0 +1,41 @@
+{
+    "name": "shishima/dynamic-view-value-render",
+    "description": "This package supports displaying values in views files according to predefined configurations.",
+    "keywords": [
+        "Shishima",
+        "laravel",
+        "dynamic-view-value-render"
+    ],
+    "homepage": "https://github.com/shishima/dynamic-view-value-render",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Phuoc Nguyen",
+            "email": "shishima21@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Shishima\\ConvertExport\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "scripts": {},
+    "config": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shishima\\ConvertExport\\ConvertExportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
